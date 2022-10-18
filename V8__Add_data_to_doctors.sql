@@ -1,0 +1,5 @@
+INSERT INTO doctors (fio, gender, speciality, birth_date, phone_number, head_doctor) VALUES ('Совсемподдокторов Евгений Анатольевич', 'Мужской', 'Практикант', '01.10.2003', '+79099097999', 6);
+INSERT INTO doctors (fio, gender, speciality, birth_date, phone_number, head_doctor) VALUES ('Совсемподхирургов Павел Григорьевич', 'Мужской', 'Практикант', '01.03.2003', '+79543251577', 7);
+INSERT INTO doctors (fio, gender, speciality, birth_date, phone_number, head_doctor) VALUES ('Совсемподтерапевтов Юрий Максимович', 'Мужской', 'Практикант', '10.05.2002', '+79987567878', 8);
+INSERT INTO doctors (fio, gender, speciality, birth_date, phone_number, head_doctor) VALUES ('Совсемподстоматологина Ивана Николевна', 'Женский', 'Практикант', '11.06.2003', '+79027768345', 9);
+INSERT INTO doctors (fio, gender, speciality, birth_date, phone_number, head_doctor) VALUES ('Совсемподонкологов Александр Николаевич', 'Мужской', 'Практикант', '10.01.2003', '+79058773829', 10);
