@@ -186,15 +186,4 @@ from departure_city;
 select *
 from cities;
 
--- with recursive cities_cte as
---                    (select city::text as all_cities, surname as sur
---                     from cities
---                     where surname = 'Dubinin'
---
---                     union all
---
---                     select cities_cte.all_cities || ', ' || city::text, surname
---                     from cities
---                              join cities_cte on cities.surname = cities_cte.sur and not (cities_cte.all_cities ~ cities.city))
--- select *
--- from cities_cte;
+select surname, name, middle_name, array_to_string(array_agg(city), ', ') from cities group by name, surname, middle_name;
